@@ -6,9 +6,9 @@ const SeedleMark = ({ theme }: any) => {
     <div className="hidden md:block">
       <svg
         fill="none"
-        height="21"
+        height="0"
         viewBox="0 0 87 21"
-        width="87"
+        width="0"
         xmlns="http://www.w3.org/2000/svg"
         color={color}
       >

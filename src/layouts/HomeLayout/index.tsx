@@ -114,7 +114,7 @@ const HomeLayout = () => {
         <div className="hidden lg:flex flex-col text-high pr-2">
           <h1 className="text-2.5 font-bold tracking-tighter leading-tight">Home</h1>
           <div className="text-medium flex items-center py-1 whitespace-nowrap">
-            A 10,000ft summary of &nbsp;
+            A deep analytical summary of &nbsp;
             <>
               <span className="text-high font-medium">{shortenAddress(addresses[0])}</span>
               <button onClick={() => handleClickCopy(addresses[0])}>

@@ -103,7 +103,7 @@ function AllPoolsLayout() {
       <div className="flex flex-col-reverse md:flex-row md:justify-between items-center">
         <div className="hidden md:flex w-1/2 flex-col text-high">
           <h1 className="text-2.5 font-bold tracking-tighter leading-tight">Pools</h1>
-          <div className="text-medium">Uniswap V3 positions.</div>
+          <div className="text-medium">Acxyn IP Uniswap V3 positions.</div>
         </div>
         <div className="flex gap-2 w-full justify-end overflow-x-auto md:overflow-x-visible py-2">
           <Card>

@@ -28,8 +28,8 @@ const LandingLayout: NextPage = () => {
     <div className="flex flex-col items-center py-4 mx-auto lg:container p-4 h-full">
       <div className="flex flex-col items-center justify-center md:px-4 py-4 mx-auto flex-1 w-full md:mt-8">
         <h1 className="text-center text-high text-2 sm:text-3 lg:text-4.75 font-bold leading-tight tracking-tighter">
-          Powerful Insights for <br />
-          Uniswap positions
+          Powerful Insights for Acxyn IP <br />
+          V3 Uniswap positions
         </h1>
         <form
           onSubmit={handleSubmit}
@@ -47,15 +47,15 @@ const LandingLayout: NextPage = () => {
       <div className="flex flex-col md:flex-row justify-between items-start my-4 w-full flex-1">
         <div className="w-full lg:max-w-sm sm:mr-4 px-8 py-16 rounded-lg flex items-center text-center justify-center flex-col text-high bg-gradient-to-b from-surface-10 to-transparent">
           <h3 className="text-1.5 lg:text-2 font-semibold tracking-tighter">Deep Insights</h3>
-          <span>Compare performance across multiple pools at once.</span>
+          <span>Compare performance across multiple IP pools at once.</span>
         </div>
         <div className="w-full lg:max-w-sm sm:mr-4 px-8 mt-6 md:mt-0 py-16 rounded-lg flex items-center text-center justify-center flex-col text-high bg-gradient-to-b from-surface-10 to-transparent">
           <h3 className="text-1.5 lg:text-2 font-semibold tracking-tighter">Multi Network</h3>
-          <span>Seedle supports Ethereum, Polygon, Optimism and Abritrum.</span>
+          <span>Acxyn supports Ethereum, Polygon, Optimism and Abritrum.</span>
         </div>
         <div className="w-full lg:max-w-sm px-8 py-16 mt-6 md:mt-0 rounded-lg flex items-center text-center justify-center flex-col text-high bg-gradient-to-b from-surface-10 to-transparent">
           <h3 className="text-1.5 lg:text-2 font-semibold tracking-tighter">Future Proof</h3>
-          <span>We’re developing Seedle to be the best in–class defi pool manager.</span>
+          <span>We’re developing Acxyn to be the best in–class IP defi pool manager.</span>
         </div>
       </div>
     </div>

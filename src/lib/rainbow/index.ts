@@ -18,6 +18,7 @@ const { chains, provider } = configureChains(
       rpc: (chain) => {
         const urls: { [index: number]: string } = {
           1: 'https://eth-mainnet.alchemyapi.io/v2/saJ_d7L6OvoZ3t6jL7ewhv7ONWWi_J29',
+          11155111: 'https://eth-sepolia.g.alchemy.com/v2/demo',
           10: 'https://opt-mainnet.g.alchemy.com/v2/bEw3og1rC9BHAidSjH24d18OEPFnEyCC',
           42161: 'https://arb-mainnet.g.alchemy.com/v2/cduelMqriBVheVg-8kGl_1ORm9NEK6ek',
           137: 'https://polygon-mainnet.g.alchemy.com/v2/Fjjq6qMa4rJR-U4jk9KdyoAwY0pdR9KL',
@@ -32,7 +33,7 @@ const { chains, provider } = configureChains(
   ],
 );
 
-const appName = 'Seedle Finance';
+const appName = 'Acxyn Finance';
 
 const connectors = connectorsForWallets([
   {

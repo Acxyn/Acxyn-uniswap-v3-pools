@@ -5,9 +5,9 @@ const SeedleSymbol = ({ theme }: any) => {
     return (
       <svg
         fill="none"
-        height="44"
-        viewBox="0 0 45 44"
-        width="45"
+        height="0"
+        viewBox="0 0 0 0"
+        width="0"
         xmlns="http://www.w3.org/2000/svg"
       >
         <linearGradient
@@ -36,7 +36,7 @@ const SeedleSymbol = ({ theme }: any) => {
   }
 
   return (
-    <svg fill="none" height="44" viewBox="0 0 45 44" width="45" xmlns="http://www.w3.org/2000/svg">
+    <svg fill="none" height="0" viewBox="0 0 0 0" width="0" xmlns="http://www.w3.org/2000/svg">
       <filter
         id="a"
         colorInterpolationFilters="sRGB"

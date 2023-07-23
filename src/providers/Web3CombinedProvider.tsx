@@ -7,6 +7,7 @@ function getLibrary(provider: any) {
 }
 
 const MainnetProvider = createWeb3ReactRoot("mainnet");
+const SepoliaProvider = createWeb3ReactRoot("sepolia");
 const OptimismProvider = createWeb3ReactRoot("optimism");
 const ArbitrumProvider = createWeb3ReactRoot("arbitrum");
 const PolygonProvider = createWeb3ReactRoot("polygon");

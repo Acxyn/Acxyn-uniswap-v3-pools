@@ -7,6 +7,7 @@ export enum TxTypes {
 
 export enum ChainID {
   Mainnet = 1,
+  Sepolia = 11155111,
   Matic = 137,
   Optimism = 10,
   Arbitrum = 42161,
